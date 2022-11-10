@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: url("background-login.png");
+}
+
+
+header {
+    border: 1px;
+    background-color: #fff;
+    color: #000;
+    padding: 1em 0 1em 0;
+}
+
+header h1 {
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+header ul li a:hover {
+    border-radius: 5px;
+    color: red;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto; 
+    gap: 2em;
+}
+
+.container-2:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.section {
+    padding: 25px 0;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+    overflow-x: auto;
+    flex-grow: 3;
+}
+
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tr {
+    height: 30px;
+}
+
+.table tr:nth-child(even) {background-color: #f2f2f2;}
+.table tbody tr:hover {background-color: #ddd;}
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr td {
+    padding: 5px 10px;
+}
+
+thead {
+    background-color: #c70039;
+    color: #fff;
+}
+
+.btn{
+    padding: 8px 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #c70039;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+i {
+    color: red;
+}
+
+
