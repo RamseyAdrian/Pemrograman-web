@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 9_Ramsey Adrian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>TicTacToe</h1>
+        </div>
+        <div class="sign">
+            <button id="X" onclick="DisplayController.changeSign('X')" disabled>X</button>
+            <button id="O" onclick="DisplayController.changeSign('O')">O</button>
+        </div>
+        
+        <form action="" class="form">
+            <label for="difficulty">Difficulty: </label>
+            <select name="difficulty" id="difficulty">
+                <option value="baby">baby bot</option>
+                <option value="ai">minimax AI</option>
+            </select>
+        </form>
+        <div id="board"></div>
+        <div class="restart">
+            <button onclick="DisplayController.restartMatch()">Restart</button>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <div class="title">
+                <p>Match Over:</p>
+            </div>
+                
+            <div id="result"></div>
+            <button class="btn-restart" onclick="DisplayController.restartMatch()"><h4>Play Again!</h4></button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript" src="./script.js"></script>
