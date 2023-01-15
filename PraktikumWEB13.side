@@ -1,0 +1,240 @@
+{
+  "id": "f4af2c1e-84b0-40be-b05c-8be5c4030410",
+  "version": "2.0",
+  "name": "PraktikumWEB13",
+  "url": "https://www.tiket.com/",
+  "tests": [{
+    "id": "564a58ee-b989-42e2-a79f-85f795c813d5",
+    "name": "Modul13",
+    "commands": [{
+      "id": "e51e67c5-8daf-44a2-b764-9288db3404ed",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tiket.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4089606a-b3c9-4a97-aac0-358c006e27ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f16ff81e-f07f-4887-8e9a-3c72ed46cd0b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.react-remote___PartnerModal-module__opportunity___xy_Xa > .react-remote___Text-module__text___Z3QGS",
+      "targets": [
+        ["css=.react-remote___PartnerModal-module__opportunity___xy_Xa > .react-remote___Text-module__text___Z3QGS", "css:finder"],
+        ["xpath=//div[@id='__next']/main/div/header/div/div[2]/div/div/div/div/header/div/div/div[2]/button/div/span", "xpath:idRelative"],
+        ["xpath=//button/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Jadi Partner tiket.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e317850-17ce-423a-b55e-e092bd9800d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchForm_verticalIcons__7QwNj li:nth-child(1) img",
+      "targets": [
+        ["css=.SearchForm_verticalIcons__7QwNj li:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Tiket Pesawat']", "xpath:img"],
+        ["xpath=//div[@id='__next']/main/div/header/div/div[3]/div[2]/div/div/ul/li/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d755372-2db4-4c9e-aa4c-fc7aa23063de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box-flightform__departure .input-airport",
+      "targets": [
+        ["css=.box-flightform__departure .input-airport", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[3]/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1146df0-fab1-49fd-83e0-6236037eb9ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list:nth-child(2) .text-airport",
+      "targets": [
+        ["css=.list:nth-child(2) .text-airport", "css:finder"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[3]/div[2]/div[2]/div[2]/div/div/div[2]/div/div/ul/li[2]/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a9f5521-726a-40e6-a3eb-ab52da87e489",
+      "comment": "",
+      "command": "type",
+      "target": "css=.width_228px:nth-child(3) .input-airport",
+      "targets": [
+        ["css=.width_228px:nth-child(3) .input-airport", "css:finder"],
+        ["xpath=//input[@value='new yor']", "xpath:attributes"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[3]/div[3]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "new yor"
+    }, {
+      "id": "1372b4f0-b603-4a3d-9e40-26567b263e83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected .item",
+      "targets": [
+        ["css=.selected .item", "css:finder"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[3]/div[3]/div[2]/div[2]/div/div/div[2]/div/div/ul/div/div/div/li/div/div", "xpath:idRelative"],
+        ["xpath=//li/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca7d7c2f-7a67-4b5f-a181-491bc45ff6db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.width_200px:nth-child(4) .input-datepicker",
+      "targets": [
+        ["css=.width_200px:nth-child(4) .input-datepicker", "css:finder"],
+        ["xpath=//input[@value='Min, 15 Jan 2023']", "xpath:attributes"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[3]/div[4]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65dc1e5f-282b-45b6-bf21-56f682e5bcaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CalendarMonthGrid_month__horizontal:nth-child(2) tr:nth-child(3) > .CalendarDay:nth-child(2) > .widget-date-picker-day",
+      "targets": [
+        ["css=.CalendarMonthGrid_month__horizontal:nth-child(2) tr:nth-child(3) > .CalendarDay:nth-child(2) > .widget-date-picker-day", "css:finder"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[3]/div[4]/div[2]/div[2]/div/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr[3]/td[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/table/tbody/tr[3]/td[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cbfdbfd-de49-4e02-9932-1a1baa43bfcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cabin-class:nth-child(4) > label",
+      "targets": [
+        ["css=.cabin-class:nth-child(4) > label", "css:finder"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[3]/div[6]/div[2]/div/div/div[2]/div[2]/ul/li[4]/label", "xpath:idRelative"],
+        ["xpath=//li[4]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'First')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b16f984-c4f0-401a-ab38-aea960226c6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-done",
+      "targets": [
+        ["css=.btn-done", "css:finder"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[3]/div[6]/div[2]/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SELESAI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2cb729d-6a1a-4046-b0db-a5e275ef5b46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v3-btn",
+      "targets": [
+        ["css=.v3-btn", "css:finder"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CARI PENERBANGAN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9146af6e-7ed5-483d-9360-46fed2d3db6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v3-btn__blue",
+      "targets": [
+        ["css=.v3-btn__blue", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[4]/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ec7d9b8-8385-4b27-9e58-b88748ee5ec3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.v3-btn",
+      "targets": [
+        ["css=.v3-btn", "css:finder"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CARI PENERBANGAN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "256ec5bc-3764-4b13-a828-b8e31104c7fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v3-btn",
+      "targets": [
+        ["css=.v3-btn", "css:finder"],
+        ["xpath=//div[@id='formhome']/div/div/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CARI PENERBANGAN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb56640d-85d4-4316-952a-416e6327485e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,832)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dc65b85-94f3-43ce-a703-ec50941e2d56",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .wrapper-flight-list",
+      "targets": [
+        ["css=div:nth-child(1) > .wrapper-flight-list", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[3]/div[2]/div/div[2]/div/div[2]/div[3]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a225625-044c-4461-9ede-353f2a0acfdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .wrapper-flight-list .list-horizontal__top > img",
+      "targets": [
+        ["css=div:nth-child(1) > .wrapper-flight-list .list-horizontal__top > img", "css:finder"],
+        ["xpath=//img[@alt='LOGO_AIRLINE']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div[3]/div[2]/div/div[2]/div/div[2]/div[3]/div/div/div/div/div/div[3]/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bca4c26-a913-4b30-a3b7-0fe55ad180e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .wrapper-flight-list .v3-btn",
+      "targets": [
+        ["css=div:nth-child(1) > .wrapper-flight-list .v3-btn", "css:finder"],
+        ["xpath=//div[@id='app']/div/div[3]/div[2]/div/div[2]/div/div[2]/div[3]/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7af884bb-aa6b-41d0-909f-58efefbffcaa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["564a58ee-b989-42e2-a79f-85f795c813d5"]
+  }],
+  "urls": [],
+  "plugins": []
+}
