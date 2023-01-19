@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Praktikum Web 12 - Ramsey Adrian</title>
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <center>
+        <h1>Gif Generator</h1>        
+        <label>Write Something First and Get your Gif </label>
+        <br><br>
+        <input id="input" type="text" onkeypress="handleKeyEnter(event)" placeholder="type something .." value="" required />
+        <br><br>
+        <button id="button" type="submit">
+            Get Gif
+        </button>
+
+        <p id="error"></p>
+    
+        <div id="answer"></div>
+      </center>
+
+      </div>
+    </div>
+    
+
+  </body>
+  <script src="script.js"></script>
+</html>

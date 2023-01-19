@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+    background: url('background-login.png');
+    
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.container {
+    padding: 20px   ;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#input {
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#button:hover {
+    background-color: white;
+    color: #000;
+}
